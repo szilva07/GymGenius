@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/border"
+    android:padding="25dp">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textColor="@color/gold"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gold"
+        android:backgroundTint="@color/gold"
+        android:textCursorDrawable="@drawable/color_cursor"/>
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/description"
+        android:textColor="@color/gold"/>
+
+    <EditText
+        android:id="@+id/etDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gold"
+        android:backgroundTint="@color/gold"
+        android:textCursorDrawable="@drawable/color_cursor"/>
+
+    <TextView
+        android:id="@+id/tvSet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/category"
+        android:textColor="@color/gold"/>
+
+    <Spinner
+        android:id="@+id/spSet"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gold"/>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvRest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rest_time"
+            android:textColor="@color/gold"/>
+
+        <EditText
+            android:id="@+id/etRest"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textColor="@color/gold"
+            android:backgroundTint="@color/gold"
+            android:textCursorDrawable="@drawable/color_cursor"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number_of_exercise"
+            android:textColor="@color/gold" />
+
+        <EditText
+            android:id="@+id/etNumberOfExercise"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textColor="@color/gold"
+            android:backgroundTint="@color/gold"
+            android:textCursorDrawable="@drawable/color_cursor"/>
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/cbIsNew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="15dp"
+        android:text="@string/choose_existing_exercise"
+        android:textColor="@color/gold"
+        android:buttonTint="@color/gold"/>
+
+    <TextView
+        android:id="@+id/tvExercise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/existing_exercises"
+        android:textColor="@color/gold"/>
+
+    <Spinner
+        android:id="@+id/spExercise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gold" />
+
+</LinearLayout>

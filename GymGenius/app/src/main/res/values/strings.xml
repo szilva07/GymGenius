@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Gym Genius</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name</string>
+    <string name="description">Note</string>
+    <string name="category">Number of sets</string>
+    <string name="new_exercise">New exercise</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="new_workout_day">New Workout Day</string>
+    <string name="new_workout_routine">New Workout Routine</string>
+    <string name="Split">Split</string>
+    <string name="routine">"Routine: %s"</string>
+    <string name="day">"Day: %s"</string>
+    <string name="exercise">Exercise: %s</string>
+    <string name="edit_workout_routine">Edit Workout Routine</string>
+    <string name="edit_workout_day">Edit Workout Day</string>
+    <string name="edit_exercise">Edit Exercise</string>
+    <string name="existing_exercises">Existing exercises</string>
+    <string name="choose_existing_exercise">Choose existing exercise</string>
+    <string name="delete_exercise">Delete exercise</string>
+    <string name="delete_from_database">Delete from the database</string>
+    <string name="remove_from_workout">Remove from the workout</string>
+    <string name="reps">Reps:</string>
+    <string name="weight">Weight:</string>
+    <string name="done">Done</string>
+    <string name="start">Start</string>
+    <string name="rest">Rest time:</string>
+    <string name="rest_time">Rest time in seconds:</string>
+    <string name="skip">Skip</string>
+    <string name="set_number">Set number %s</string>
+    <string name="result_date">Previous result: %s</string>
+    <string name="sets">"S"ets: "</string>
+    <string name="rest_seconds">"Rest: "</string>
+    <string name="seconds">" seconds"</string>
+    <string name="number_of_exercise">"Number of the exercise: "</string>
+    <string name="finish_workout">Finish the workout</string>
+    <string name="push_to_end">Push this exercise to the end of the workout</string>
+    <string name="skip_exercise">Skip this exercise</string>
+    <string name="gym_genius">"G Y M     G E N I U S"</string>
+    <string name="skip_rest_time">Skip rest time</string>
+    <color name="yellow">#FFFF00</color>
+
+    <string-array name="set_items">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+    <string-array name="split_items">
+        <item>Body Part</item>
+        <item>Upper Lower Body</item>
+        <item>Push Pull Legs</item>
+        <item>Full Body</item>
+        <item>Arnold</item>
+        <item>Other</item>
+    </string-array>
+</resources>

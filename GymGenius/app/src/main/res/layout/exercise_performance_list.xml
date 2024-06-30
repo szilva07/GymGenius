@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="8dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp"
+    android:background="@drawable/border">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="2023. 11. 05."
+            android:textColor="@color/gold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvReps"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="@string/reps"
+                android:textColor="@color/gold"/>
+
+            <TextView
+                android:id="@+id/tvSet1Rep"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                tools:text="3"
+                android:textColor="@color/gold"/>
+
+            <TextView
+                android:id="@+id/tvSet2Rep"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                tools:text="3"
+                android:textColor="@color/gold"/>
+
+            <TextView
+                android:id="@+id/tvSet3Rep"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                tools:text="3"
+                android:textColor="@color/gold"/>
+
+            <TextView
+                android:id="@+id/tvSet4Rep"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                tools:text="3"
+                android:textColor="@color/gold"/>
+
+            <TextView
+                android:id="@+id/tvSet5Rep"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                tools:text="3"
+                android:textColor="@color/gold"/>
+
+            <TextView
+                android:id="@+id/tvSet6Rep"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                tools:text="3"
+                android:textColor="@color/gold" />
+
+            <TextView
+                android:id="@+id/tvSet7Rep"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                tools:text="3"
+                android:textColor="@color/gold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvWeight"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="@string/weight"
+                android:textColor="@color/gold" />
+
+            <TextView
+                android:id="@+id/tvSet1Weight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                tools:text="3"
+                android:textColor="@color/gold" />
+
+            <TextView
+                android:id="@+id/tvSet2Weight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                tools:text="3"
+                android:textColor="@color/gold"/>
+
+            <TextView
+                android:id="@+id/tvSet3Weight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                tools:text="3"
+                android:textColor="@color/gold"/>
+
+            <TextView
+                android:id="@+id/tvSet4Weight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                tools:text="3"
+                android:textColor="@color/gold"/>
+
+            <TextView
+                android:id="@+id/tvSet5Weight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                tools:text="3"
+                android:textColor="@color/gold" />
+
+            <TextView
+                android:id="@+id/tvSet6Weight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                tools:text="3"
+                android:textColor="@color/gold" />
+
+            <TextView
+                android:id="@+id/tvSet7Weight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                tools:text="3"
+                android:textColor="@color/gold"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/ibRemove"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_delete_grey600_48dp" />
+
+</LinearLayout>

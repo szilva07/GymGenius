@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:background="@drawable/border">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbSkipRestTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/skip_rest_time"
+            android:textColor="@color/gold"
+            android:buttonTint="@color/gold"/>
+
+        <RadioButton
+            android:id="@+id/rbPushToEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/push_to_end"
+            android:textColor="@color/gold"
+            android:buttonTint="@color/gold"/>
+
+        <RadioButton
+            android:id="@+id/rbSkipExercise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/skip_exercise"
+            android:textColor="@color/gold"
+            android:buttonTint="@color/gold"/>
+
+        <RadioButton
+            android:id="@+id/rbFinishWorkout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/finish_workout"
+            android:textColor="@color/gold"
+            android:buttonTint="@color/gold"/>
+
+    </RadioGroup>
+
+</LinearLayout>
